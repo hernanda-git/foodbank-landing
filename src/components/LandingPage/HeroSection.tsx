@@ -54,7 +54,7 @@ const HeroSection: React.FC = () => (
         Food Bank.
       </h1>
 
-      <p className="mb-10 text-lg sm:text-xl leading-relaxed text-gray-600 font-medium drop-shadow">
+      <p className="mb-10 text-lg sm:text-xl leading-relaxed text-slate-800 font-medium drop-shadow">
         Stand with us to lift the weight off the shoulders of the underprivileged. Your support delivers nourishment, ignites hope, and restores dignity to countless lives.
       </p>
 
@@ -71,12 +71,12 @@ const HeroSection: React.FC = () => (
             active:scale-[0.98] active:brightness-95 active:cursor-pointer"
         >
           <i className="fas fa-hand-holding-heart"></i>
-          Donate
+          Contribute
         </button>
 
         {/* More About Us - Secondary CTA */}
         <button
-          className="px-6 py-2.5 rounded-xl font-semibold text-gray-600 text-base flex items-center gap-2
+          className="px-6 py-2.5 rounded-xl font-semibold text-slate-600 text-base flex items-center gap-2
             bg-white/40 backdrop-blur-md border border-black/10 shadow-md
             transition duration-200 ease-in-out
             hover:bg-white/60 hover:shadow-xl hover:cursor-pointer
