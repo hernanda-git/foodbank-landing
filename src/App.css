@@ -7,4 +7,20 @@ body {
 .font-montserrat {
   font-family: 'Montserrat Alternates', Arial, sans-serif;
 }
+
+@keyframes photo-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-photo-scroll {
+  animation: photo-scroll 30s linear infinite;
+  display: flex;
+  width: 200%; /* Two sets of images */
+}
+
 @import "tailwindcss";
