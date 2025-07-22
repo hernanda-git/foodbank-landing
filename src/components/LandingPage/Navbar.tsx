@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { easeOut, motion } from 'framer-motion'; // ✅ Add this
 import './Navbar.css';
 
 const languages = [
@@ -13,6 +14,19 @@ const languages = [
 interface NavbarProps {
   onLanguageChange?: (code: string) => void;
 }
+
+const navbarVariants = {
+  hidden: { opacity: 0, y: -30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 3, //
+      duration: 0.8,
+      ease: easeOut
+    }
+  }
+};
 
 export default function Navbar({ onLanguageChange }: NavbarProps) {
   const [selectedLang, setSelectedLang] = useState(languages[0].code);
@@ -39,7 +53,12 @@ export default function Navbar({ onLanguageChange }: NavbarProps) {
   }, [dropdownOpen]);
 
   return (
-    <nav className="navbar">
+    <motion.nav
+      className="navbar"
+      initial="hidden"
+      animate="visible"
+      variants={navbarVariants}
+    >
       <div className="navbar-left">
         <Link
           to="/"
@@ -81,6 +100,6 @@ export default function Navbar({ onLanguageChange }: NavbarProps) {
           )}
         </div>
       </div>
-    </nav>
+    </motion.nav>
   );
 }
