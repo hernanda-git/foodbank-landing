@@ -69,6 +69,10 @@ const HeroSection: React.FC = () => (
             hover:shadow-xl hover:brightness-110 hover:cursor-pointer
             focus:outline-none focus:ring-2 focus:ring-orange-400/60 focus:ring-offset-2
             active:scale-[0.98] active:brightness-95 active:cursor-pointer"
+          onClick={() => {
+            const el = document.getElementById('donation');
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+          }}
         >
           <i className="fas fa-hand-holding-heart"></i>
           Contribute
@@ -82,6 +86,10 @@ const HeroSection: React.FC = () => (
             hover:bg-white/60 hover:shadow-xl hover:cursor-pointer
             focus:outline-none focus:ring-2 focus:ring-black/20 focus:ring-offset-2
             active:scale-[0.98] active:bg-white/70 active:cursor-pointer"
+          onClick={() => {
+            const el = document.getElementById('about-us');
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+          }}
         >
           <i className="fas fa-info-circle"></i>
           More About Us

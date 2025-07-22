@@ -26,7 +26,7 @@ const imageVariants = {
 };
 
 const AboutUsSection = () => (
-  <section className="min-h-screen bg-slate-100 flex items-center justify-center py-8 px-4">
+  <section id="about-us" className="min-h-screen bg-slate-100 flex items-center justify-center py-8 px-4">
     <div className="w-full max-w-7xl flex lg:flex-row flex-col gap-8 items-stretch">
       {/* Left Card (3/4 width) */}
       <motion.div
