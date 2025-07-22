@@ -29,7 +29,7 @@ const ContributorSection = () => {
               style={{ padding: '4px' }}
             >
               <img
-                src={`/src/assets/images/contributors/${file}`}
+                src={`/images/contributors/${file}`}
                 alt={file.replace(/\.[^.]+$/, '').replace(/_/g, ' ')}
                 className="max-h-full max-w-full object-contain"
                 style={{ width: '100%', height: '100%' }}

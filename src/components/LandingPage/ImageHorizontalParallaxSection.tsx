@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 
-const row1Images = Array.from({ length: 10 }, (_, i) => `/src/assets/images/photos/photo_${i + 1}.png`);
-const row2Images = Array.from({ length: 11 }, (_, i) => `/src/assets/images/photos/${i + 1}.png`);
+const row1Images = Array.from({ length: 10 }, (_, i) => `/images/photos/photo_${i + 1}.png`);
+const row2Images = Array.from({ length: 11 }, (_, i) => `/images/photos/${i + 1}.png`);
 
 interface ImageRowProps {
   images: string[];

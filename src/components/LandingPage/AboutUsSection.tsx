@@ -77,21 +77,21 @@ const AboutUsSection = () => (
       >
         <div className="relative overflow-hidden rounded-xl shadow-lg flex-1">
           <img
-            src="/src/assets/images/photos/photo_1.png"
+            src="/images/photos/photo_1.png"
             alt="Foodbank Initiative"
             className="w-full h-full object-cover rounded-xl transition-transform duration-300 hover:scale-105"
           />
         </div>
         <div className="relative overflow-hidden rounded-xl shadow-lg flex-1">
           <img
-            src="/src/assets/images/photos/photo_8.png"
+            src="/images/photos/photo_8.png"
             alt="Community Support"
             className="w-full h-full object-cover rounded-xl transition-transform duration-300 hover:scale-105"
           />
         </div>
         <div className="relative overflow-hidden rounded-xl shadow-lg flex-1">
           <img
-            src="/src/assets/images/photos/photo_9.png"
+            src="/images/photos/photo_9.png"
             alt="Global Outreach"
             className="w-full h-full object-cover rounded-xl transition-transform duration-300 hover:scale-105"
           />

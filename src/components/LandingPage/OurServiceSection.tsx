@@ -1,22 +1,22 @@
 
 const services = [
   {
-    img: '/src/assets/images/photos/photo_3.png',
+    img: '/images/photos/photo_3.png',
     title: 'Rumah Amal Lot G-18',
     desc: '500 Penerima Bantuan Khas Foodbank DMDI di Rumah Amal Lot G-18, Bangunan Kota Cmerlang, Ayer Keroh.'
   },
   {
-    img: '/src/assets/images/photos/1.png',
+    img: '/images/photos/1.png',
     title: 'Program Sumbangan Bakul Ramadhan',
     desc: 'Sumbangan dari Speedmart 99 di Bangunan Kota Cemerlang, Ayer Keroh. Untuk sambutan Aidil-fitri.'
   },
   {
-    img: '/src/assets/images/photos/4.png',
+    img: '/images/photos/4.png',
     title: 'Sumbangan Pasca Banjir',
     desc: 'Bantuan darurat berupa makanan, kebutuhan pokok, dan dukungan moral bagi korban banjir untuk membantu mereka bangkit kembali.'
   },
   {
-    img: '/src/assets/images/photos/8.png',
+    img: '/images/photos/8.png',
     title: 'Food Bank DMDI Negeri Johor',
     desc: 'Program distribusi makanan oleh DMDI Negeri Johor untuk membantu keluarga kurang mampu dan memastikan akses pangan yang layak bagi masyarakat yang membutuhkan.'
   }

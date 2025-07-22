@@ -54,7 +54,7 @@ const DonationSection: React.FC = () => {
           {/* Right Side - QR Code */}
           <div className="flex flex-col justify-center items-center text-center space-y-4">
             <img
-              src="src/assets/images/qr_code_duit_now.png"
+              src="/images/qr_code_duit_now.png"
               alt="DuitNow QR Code"
               className="w-48 h-48 rounded-lg shadow-md"
             />

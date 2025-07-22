@@ -1,5 +1,5 @@
 import React from 'react';
-import dmdiLogo from '../../assets/images/dmdi_logo.png';
+import dmdiLogo from '/images/dmdi_logo.png';
 
 const HeroSection: React.FC = () => (
   <section
@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => (
         {[...Array(10)].map((_, i) => (
           <img
             key={i}
-            src={`/src/assets/images/photos/photo_${i + 1}.png`}
+            src={`/images/photos/photo_${i + 1}.png`}
             alt={`Background ${i + 1}`}
             className="w-full h-full object-cover"
             style={{ aspectRatio: '1/1', minWidth: '10vw', maxWidth: '10vw' }}
@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => (
         {[...Array(10)].map((_, i) => (
           <img
             key={`dup-${i}`}
-            src={`/src/assets/images/photos/photo_${i + 1}.png`}
+            src={`/images/photos/photo_${i + 1}.png`}
             alt={`Background ${i + 1}`}
             className="w-full h-full object-cover"
             style={{ aspectRatio: '1/1', minWidth: '10vw', maxWidth: '10vw' }}
