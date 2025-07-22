@@ -51,7 +51,7 @@ const HeroSection: React.FC = () => (
       </div>
 
       <h1 className="text-5xl sm:text-6xl text-orange-500 font-extrabold mb-6 font-montserrat drop-shadow-lg">
-        Food Bank.
+        Food Bank
       </h1>
 
       <p className="mb-10 text-lg sm:text-xl leading-relaxed text-slate-800 font-medium drop-shadow">
