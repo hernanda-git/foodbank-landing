@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Navbar from '../components/LandingPage/Navbar';
 import HeroSection from '../components/LandingPage/HeroSection';
 import ContributorSection from '../components/LandingPage/ContributorSection';
 import ImageHorizontalParallaxSection from '../components/LandingPage/ImageHorizontalParallaxSection';
@@ -11,8 +12,13 @@ import DonationSection from '../components/LandingPage/DonationSection';
 
 
 const LandingPage: React.FC = () => {
+  // Placeholder for language change handler
+  const handleLanguageChange = () => {
+    // Implement localization logic here if needed
+  };
   return (
     <>
+      <Navbar onLanguageChange={handleLanguageChange} />
       <HeroSection />
       <ImageHorizontalParallaxSection />
       <AboutUsSection />
