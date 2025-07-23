@@ -11,21 +11,24 @@ import OurServiceSection from '../components/LandingPage/OurServiceSection';
 import DonationSection from '../components/LandingPage/DonationSection';
 
 
+
+import { useState } from 'react';
+
 const LandingPage: React.FC = () => {
-  // Placeholder for language change handler
-  const handleLanguageChange = () => {
-    // Implement localization logic here if needed
+  const [lang, setLang] = useState('en');
+  const handleLanguageChange = (code: string) => {
+    setLang(code);
   };
   return (
     <>
       <Navbar onLanguageChange={handleLanguageChange} />
-      <HeroSection />
+      <HeroSection lang={lang} />
       <ImageHorizontalParallaxSection />
-      <AboutUsSection />
-      <OurServiceSection />
-      <DonationSection />
-      <ContributorSection />
-      <StatsSection />
+      <AboutUsSection lang={lang} />
+      <OurServiceSection lang={lang} />
+      <DonationSection lang={lang} />
+      <ContributorSection lang={lang} />
+      <StatsSection lang={lang} />
       <FooterSection />
     </>
   );

@@ -1,11 +1,16 @@
 import React, { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion, useMotionValue, useTransform, animate } from 'framer-motion';
+import locales from '../../locales/locales.json';
 
 interface CounterProps {
   target: number;
   suffix?: string;
   duration?: number;
+}
+
+interface StatsSectionProps {
+  lang?: string;
 }
 
 const AnimatedCounter: React.FC<CounterProps> = ({ target, suffix = '+', duration = 3 }) => {
@@ -27,24 +32,28 @@ const AnimatedCounter: React.FC<CounterProps> = ({ target, suffix = '+', duratio
   );
 };
 
-const StatsSection: React.FC = () => (
-  <section className="w-full py-16 bg-gray-100 flex flex-col items-center">
-    <h2 className="text-3xl font-bold mb-8 text-center">Impact Highlights</h2>
-    <div className="flex flex-wrap gap-12 justify-center">
-      <div className="text-center">
-        <AnimatedCounter target={8591} />
-        <div className="text-gray-600 mt-1">Beneficiaries</div>
+const StatsSection: React.FC<StatsSectionProps> = ({ lang = 'en' }) => {
+  // @ts-expect-error: JSON import is not typed, fallback to 'en' if lang missing
+  const t = (locales[lang]?.stats) || locales['en'].stats;
+  return (
+    <section className="w-full py-16 bg-gray-100 flex flex-col items-center">
+      <h2 className="text-3xl font-bold mb-8 text-center">{t.title}</h2>
+      <div className="flex flex-wrap gap-12 justify-center">
+        <div className="text-center">
+          <AnimatedCounter target={t.beneficiariesValue} />
+          <div className="text-gray-600 mt-1">{t.beneficiaries}</div>
+        </div>
+        <div className="text-center">
+          <AnimatedCounter target={t.volunteersValue} />
+          <div className="text-gray-600 mt-1">{t.volunteers}</div>
+        </div>
+        <div className="text-center">
+          <AnimatedCounter target={t.countriesValue} />
+          <div className="text-gray-600 mt-1">{t.countries}</div>
+        </div>
       </div>
-      <div className="text-center">
-        <AnimatedCounter target={100} />
-        <div className="text-gray-600 mt-1">Volunteers</div>
-      </div>
-      <div className="text-center">
-        <AnimatedCounter target={5} />
-        <div className="text-gray-600 mt-1">Countries</div>
-      </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default StatsSection;

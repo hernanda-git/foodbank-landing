@@ -1,0 +1,375 @@
+{
+    "en": {
+        "hero": {
+            "orgName": "Yayasan Dunia Melayu Dunia Islam",
+            "title": "Food Bank",
+            "description": "Stand with us to lift the weight off the shoulders of the underprivileged. Your support delivers nourishment, ignites hope, and restores dignity to countless lives.",
+            "contribute": "Contribute",
+            "moreAboutUs": "More About Us"
+        },
+        "about": {
+            "title": "About Us",
+            "established": "Established on July 1, 2021, the DMDI Foundation launched its Foodbank initiative at Lot G-24, Ground Floor, Kota Cemerlang Building, Ayer Keroh, Melaka.",
+            "contributions": "Since its inception, the DMDI Foundation has received generous contributions from both corporations and individuals, in the form of monetary donations and essential goods. These resources are distributed directly to those in need.",
+            "impact": "As of June 18, 2025, the Foodbank has successfully collected RM 529,025.30 in total contributions, benefitting 8,591 recipients. The primary mission of the DMDI Foodbank is to support vulnerable communities, including the impoverished, persons with disabilities (OKU), zakat-eligible individuals (Asnaf), single mothers, and those with unstable incomes, by easing their financial burden and ensuring access to daily necessities.",
+            "expansion": "In addition to the Melaka Foodbank, the DMDI Foundation has expanded its outreach by establishing food banks across various Malaysian states and DMDI member countries, including Singapore, Thailand, Cambodia, Indonesia, and Canada.",
+            "missionTitle": "Mission",
+            "mission": "To foster the spirit of giving, unity, and compassion as symbols of brotherhood and solidarity among people.",
+            "visionTitle": "Vision",
+            "vision": "Caring for All, Building Community",
+            "objectivesTitle": "Objectives",
+            "objectives": [
+                "The main goal is to help underprivileged groups gain access to food supplies.",
+                "To serve as a platform for the community and companies to contribute food.",
+                "Challenges include inconsistent contributions from donors."
+            ]
+        },
+        "services": {
+            "title": "Our Activities",
+            "desc": "Helping families thrive through our foodbank and charitable services.",
+            "list": [
+                {
+                    "img": "/images/photos/photo_3.png",
+                    "title": "Rumah Amal Lot G-18",
+                    "desc": "500 Penerima Bantuan Khas Foodbank DMDI di Rumah Amal Lot G-18, Bangunan Kota Cmerlang, Ayer Keroh."
+                },
+                {
+                    "img": "/images/photos/1.png",
+                    "title": "Program Sumbangan Bakul Ramadhan",
+                    "desc": "Sumbangan dari Speedmart 99 di Bangunan Kota Cemerlang, Ayer Keroh. Untuk sambutan Aidil-fitri."
+                },
+                {
+                    "img": "/images/photos/4.png",
+                    "title": "Sumbangan Pasca Banjir",
+                    "desc": "Bantuan darurat berupa makanan, kebutuhan pokok, dan dukungan moral bagi korban banjir untuk membantu mereka bangkit kembali."
+                },
+                {
+                    "img": "/images/photos/8.png",
+                    "title": "Food Bank DMDI Negeri Johor",
+                    "desc": "Program distribusi makanan oleh DMDI Negeri Johor untuk membantu keluarga kurang mampu dan memastikan akses pangan yang layak bagi masyarakat yang membutuhkan."
+                }
+            ]
+        },
+        "donation": {
+            "title": "Support Our Foodbank",
+            "desc": "Every donation helps feed someone in need. Make a difference today!",
+            "bankTitle": "Bank Transfer",
+            "bankName": "AmBank",
+            "bankAcc": "8881002209852",
+            "bankRefLabel": "Reference",
+            "bankRef": "Foodbank Yayasan DMDI",
+            "contactTitle": "Contact Information",
+            "contacts": [
+                { "label": "Office", "value": "(+60) 6-2331212" },
+                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
+                { "label": "Raziah", "value": "(+60) 12-6921760" },
+                { "label": "Nori", "value": "(+60) 17-2337705" }
+            ],
+            "qrScan": "Scan to Donate",
+            "qrRef": "Reference",
+            "qrRefValue": "Foodbank DMDI",
+            "qrPowered": "Powered by DuitNow"
+        },
+        "contributors": {
+            "title": "Contributor List"
+        },
+        "stats": {
+            "title": "Impact Highlights",
+            "beneficiaries": "Beneficiaries",
+            "beneficiariesValue": 8591,
+            "volunteers": "Volunteers",
+            "volunteersValue": 100,
+            "countries": "Countries",
+            "countriesValue": 5
+        }
+    },
+    "ms": {
+        "hero": {
+            "orgName": "Yayasan Dunia Melayu Dunia Islam",
+            "title": "Food Bank",
+            "description": "Bersama kami meringankan beban golongan kurang bernasib baik. Sokongan anda membawa makanan, harapan, dan maruah kepada ramai yang memerlukan.",
+            "contribute": "Sumbang",
+            "moreAboutUs": "Tentang Kami"
+        },
+        "about": {
+            "title": "Tentang Kami",
+            "established": "Ditubuhkan pada 1 Julai 2021, Yayasan DMDI melancarkan inisiatif Foodbank di Lot G-24, Aras Bawah, Bangunan Kota Cemerlang, Ayer Keroh, Melaka.",
+            "contributions": "Sejak penubuhannya, Yayasan DMDI telah menerima sumbangan yang murah hati daripada syarikat dan individu, dalam bentuk wang dan barangan keperluan. Sumber ini diagihkan terus kepada mereka yang memerlukan.",
+            "impact": "Sehingga 18 Jun 2025, Foodbank telah berjaya mengumpul RM 529,025.30 dalam jumlah sumbangan, memberi manfaat kepada 8,591 penerima. Misi utama Foodbank DMDI adalah untuk menyokong komuniti yang memerlukan, termasuk golongan miskin, OKU, asnaf, ibu tunggal, dan mereka yang berpendapatan tidak tetap, dengan meringankan beban kewangan dan memastikan akses kepada keperluan harian.",
+            "expansion": "Selain Foodbank Melaka, Yayasan DMDI telah memperluaskan jangkauan dengan menubuhkan foodbank di pelbagai negeri di Malaysia dan negara anggota DMDI, termasuk Singapura, Thailand, Kemboja, Indonesia, dan Kanada.",
+            "missionTitle": "Misi",
+            "mission": "Memupuk semangat memberi, perpaduan, dan belas kasihan sebagai simbol persaudaraan dan solidariti antara manusia.",
+            "visionTitle": "Visi",
+            "vision": "Prihatin Untuk Semua, Membina Komuniti",
+            "objectivesTitle": "Objektif",
+            "objectives": [
+                "Matlamat utama adalah membantu golongan kurang bernasib baik mendapat akses kepada bekalan makanan.",
+                "Menjadi platform untuk komuniti dan syarikat menyumbang makanan.",
+                "Cabaran termasuk sumbangan yang tidak konsisten daripada penderma."
+            ]
+        },
+        "services": {
+            "title": "Aktiviti Kami",
+            "desc": "Membantu keluarga berkembang melalui foodbank dan perkhidmatan kebajikan kami.",
+            "list": [
+                {
+                    "img": "/images/photos/photo_3.png",
+                    "title": "Rumah Amal Lot G-18",
+                    "desc": "500 Penerima Bantuan Khas Foodbank DMDI di Rumah Amal Lot G-18, Bangunan Kota Cmerlang, Ayer Keroh."
+                },
+                {
+                    "img": "/images/photos/1.png",
+                    "title": "Program Sumbangan Bakul Ramadhan",
+                    "desc": "Sumbangan dari Speedmart 99 di Bangunan Kota Cemerlang, Ayer Keroh. Untuk sambutan Aidil-fitri."
+                },
+                {
+                    "img": "/images/photos/4.png",
+                    "title": "Sumbangan Pasca Banjir",
+                    "desc": "Bantuan kecemasan berupa makanan, keperluan asas, dan sokongan moral untuk mangsa banjir bagi membantu mereka bangkit semula."
+                },
+                {
+                    "img": "/images/photos/8.png",
+                    "title": "Food Bank DMDI Negeri Johor",
+                    "desc": "Program agihan makanan oleh DMDI Negeri Johor untuk membantu keluarga kurang mampu dan memastikan akses makanan yang layak bagi masyarakat yang memerlukan."
+                }
+            ]
+        },
+        "donation": {
+            "title": "Sokong Foodbank Kami",
+            "desc": "Setiap sumbangan membantu memberi makanan kepada yang memerlukan. Jadilah perbezaan hari ini!",
+            "bankTitle": "Pemindahan Bank",
+            "bankName": "AmBank",
+            "bankAcc": "8881002209852",
+            "bankRefLabel": "Rujukan",
+            "bankRef": "Foodbank Yayasan DMDI",
+            "contactTitle": "Maklumat Perhubungan",
+            "contacts": [
+                { "label": "Office", "value": "(+60) 6-2331212" },
+                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
+                { "label": "Raziah", "value": "(+60) 12-6921760" },
+                { "label": "Nori", "value": "(+60) 17-2337705" }
+            ],
+            "qrScan": "Imbas untuk Sumbang",
+            "qrRef": "Rujukan",
+            "qrRefValue": "Foodbank DMDI",
+            "qrPowered": "Dikuasakan oleh DuitNow"
+        }
+    },
+    "id": {
+        "hero": {
+            "orgName": "Yayasan Dunia Melayu Dunia Islam",
+            "title": "Food Bank",
+            "description": "Bersama kami meringankan beban mereka yang kurang mampu. Dukungan Anda membawa makanan, harapan, dan martabat bagi banyak kehidupan.",
+            "contribute": "Donasi",
+            "moreAboutUs": "Tentang Kami"
+        },
+        "about": {
+            "title": "Tentang Kami",
+            "established": "Didirikan pada 1 Juli 2021, Yayasan DMDI meluncurkan inisiatif Bank Makanan di Lot G-24, Lantai Dasar, Gedung Kota Cemerlang, Ayer Keroh, Melaka.",
+            "contributions": "Sejak awal, Yayasan DMDI telah menerima kontribusi dermawan dari perusahaan dan individu, dalam bentuk donasi uang dan barang kebutuhan pokok. Bantuan ini langsung disalurkan kepada mereka yang membutuhkan.",
+            "impact": "Hingga 18 Juni 2025, Bank Makanan telah berhasil mengumpulkan total kontribusi sebesar RM 529.025,30 dan memberikan manfaat kepada 8.591 penerima. Misi utama Bank Makanan DMDI adalah mendukung komunitas rentan seperti kaum miskin, penyandang disabilitas, penerima zakat (Asnaf), ibu tunggal, dan pekerja berpenghasilan tidak tetap, dengan meringankan beban keuangan mereka dan memastikan akses terhadap kebutuhan pokok sehari-hari.",
+            "expansion": "Selain Bank Makanan Melaka, Yayasan DMDI telah memperluas jangkauan dengan mendirikan bank makanan di berbagai negara bagian Malaysia dan negara anggota DMDI, termasuk Singapura, Thailand, Kamboja, Indonesia, dan Kanada.",
+            "missionTitle": "Misi",
+            "mission": "Menumbuhkan semangat memberi, persatuan, dan kepedulian sebagai simbol persaudaraan dan solidaritas antar sesama.",
+            "visionTitle": "Visi",
+            "vision": "Peduli untuk Semua, Membangun Komunitas",
+            "objectivesTitle": "Tujuan",
+            "objectives": [
+                "Tujuan utama adalah membantu kelompok kurang mampu mendapatkan akses terhadap pasokan makanan.",
+                "Menjadi wadah bagi komunitas dan perusahaan untuk berdonasi makanan.",
+                "Tantangan meliputi ketidakkonsistenan dalam donasi dari para penyumbang."
+            ]
+        },
+        "services": {
+            "title": "Aktivitas Kami",
+            "desc": "Membantu keluarga berkembang melalui layanan foodbank dan kegiatan sosial kami.",
+            "list": [
+                {
+                    "img": "/images/photos/photo_3.png",
+                    "title": "Rumah Amal Lot G-18",
+                    "desc": "500 penerima bantuan khusus Foodbank DMDI di Rumah Amal Lot G-18, Gedung Kota Cemerlang, Ayer Keroh."
+                },
+                {
+                    "img": "/images/photos/1.png",
+                    "title": "Program Paket Ramadhan",
+                    "desc": "Donasi dari Speedmart 99 di Gedung Kota Cemerlang, Ayer Keroh dalam rangka menyambut Hari Raya Idulfitri."
+                },
+                {
+                    "img": "/images/photos/4.png",
+                    "title": "Bantuan Pasca Banjir",
+                    "desc": "Bantuan darurat berupa makanan, kebutuhan pokok, dan dukungan moral bagi korban banjir agar bisa bangkit kembali."
+                },
+                {
+                    "img": "/images/photos/8.png",
+                    "title": "Food Bank DMDI Johor",
+                    "desc": "Distribusi makanan oleh DMDI Johor untuk membantu keluarga kurang mampu dan memastikan akses pangan yang layak."
+                }
+            ]
+        },
+        "donation": {
+            "title": "Dukung Foodbank Kami",
+            "desc": "Setiap donasi membantu memberi makan mereka yang membutuhkan. Jadilah perubahan hari ini!",
+            "bankTitle": "Transfer Bank",
+            "bankName": "AmBank",
+            "bankAcc": "8881002209852",
+            "bankRefLabel": "Referensi",
+            "bankRef": "Foodbank Yayasan DMDI",
+            "contactTitle": "Informasi Kontak",
+            "contacts": [
+                { "label": "Office", "value": "(+60) 6-2331212" },
+                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
+                { "label": "Raziah", "value": "(+60) 12-6921760" },
+                { "label": "Nori", "value": "(+60) 17-2337705" }
+            ],
+            "qrScan": "Pindai untuk Donasi",
+            "qrRef": "Referensi",
+            "qrRefValue": "Foodbank DMDI",
+            "qrPowered": "Didukung oleh DuitNow"
+        }
+    },
+    "th": {
+        "hero": {
+            "orgName": "Yayasan Dunia Melayu Dunia Islam",
+            "title": "Food Bank",
+            "description": "ร่วมยืนเคียงข้างเราเพื่อแบ่งเบาภาระของผู้ด้อยโอกาส การสนับสนุนของคุณช่วยส่งต่ออาหาร จุดประกายความหวัง และคืนศักดิ์ศรีให้กับชีวิตมากมาย",
+            "contribute": "บริจาค",
+            "moreAboutUs": "เกี่ยวกับเรา"
+        },
+        "about": {
+            "title": "เกี่ยวกับเรา",
+            "established": "มูลนิธิ DMDI ก่อตั้งขึ้นเมื่อวันที่ 1 กรกฎาคม 2021 โดยเปิดตัวโครงการธนาคารอาหารที่ชั้น G-24 อาคารโกตาเชอแมร์ลัง อาเยร์เกอโรห์ รัฐมะละกา",
+            "contributions": "ตั้งแต่เริ่มก่อตั้ง มูลนิธิ DMDI ได้รับการบริจาคอย่างต่อเนื่องจากบริษัทและบุคคลทั่วไป ทั้งในรูปแบบเงินและสิ่งของจำเป็น ซึ่งได้นำไปแจกจ่ายให้กับผู้ที่ต้องการความช่วยเหลือโดยตรง",
+            "impact": "ณ วันที่ 18 มิถุนายน 2025 ธนาคารอาหารได้รวบรวมเงินบริจาคทั้งหมด RM 529,025.30 และช่วยเหลือผู้รับกว่า 8,591 คน ภารกิจหลักของธนาคารอาหาร DMDI คือการสนับสนุนชุมชนเปราะบาง เช่น ผู้ยากไร้ ผู้พิการ ผู้มีสิทธิ์รับซะกาต (Asnaf) แม่เลี้ยงเดี่ยว และผู้มีรายได้ไม่แน่นอน โดยช่วยลดภาระทางการเงินและรับประกันการเข้าถึงปัจจัยพื้นฐานในชีวิตประจำวัน",
+            "expansion": "นอกจากธนาคารอาหารในมะละกาแล้ว มูลนิธิ DMDI ยังได้ขยายการให้บริการไปยังรัฐต่าง ๆ ในมาเลเซีย และประเทศสมาชิก DMDI รวมถึงสิงคโปร์ ไทย กัมพูชา อินโดนีเซีย และแคนาดา",
+            "missionTitle": "พันธกิจ",
+            "mission": "ส่งเสริมจิตวิญญาณแห่งการให้ ความเป็นหนึ่งเดียว และความเมตตาในฐานะสัญลักษณ์แห่งความเป็นพี่น้องและความสามัคคีในสังคม",
+            "visionTitle": "วิสัยทัศน์",
+            "vision": "ห่วงใยทุกคน สร้างสรรค์ชุมชน",
+            "objectivesTitle": "วัตถุประสงค์",
+            "objectives": [
+                "เป้าหมายหลักคือช่วยให้กลุ่มผู้ด้อยโอกาสเข้าถึงแหล่งอาหารได้",
+                "เป็นพื้นที่กลางให้ชุมชนและองค์กรมีส่วนร่วมในการบริจาคอาหาร",
+                "ความท้าทายคือความไม่สม่ำเสมอของการบริจาคจากผู้สนับสนุน"
+            ]
+        },
+        "services": {
+            "title": "กิจกรรมของเรา",
+            "desc": "ช่วยเหลือครอบครัวให้เติบโตผ่านบริการธนาคารอาหารและงานการกุศลของเรา",
+            "list": [
+                {
+                    "img": "/images/photos/photo_3.png",
+                    "title": "บ้านสงเคราะห์ Lot G-18",
+                    "desc": "ผู้รับความช่วยเหลือพิเศษ 500 คนจากธนาคารอาหาร DMDI ที่บ้านสงเคราะห์ Lot G-18 อาคารโกตาเชอแมร์ลัง อาเยร์เกอโรห์"
+                },
+                {
+                    "img": "/images/photos/1.png",
+                    "title": "โครงการตะกร้าอาหารรอมฎอน",
+                    "desc": "การบริจาคจาก Speedmart 99 ณ อาคารโกตาเชอแมร์ลัง อาเยร์เกอโรห์ เพื่อฉลองวันฮารีรายอ"
+                },
+                {
+                    "img": "/images/photos/4.png",
+                    "title": "ความช่วยเหลือหลังน้ำท่วม",
+                    "desc": "ให้ความช่วยเหลือฉุกเฉินด้านอาหาร ของใช้จำเป็น และกำลังใจแก่ผู้ประสบอุทกภัย เพื่อช่วยให้พวกเขากลับมายืนหยัดได้อีกครั้ง"
+                },
+                {
+                    "img": "/images/photos/8.png",
+                    "title": "ธนาคารอาหาร DMDI รัฐยะโฮร์",
+                    "desc": "โครงการแจกจ่ายอาหารโดย DMDI รัฐยะโฮร์ เพื่อช่วยเหลือครอบครัวยากจนและสร้างความมั่นใจในการเข้าถึงอาหารที่เพียงพอ"
+                }
+            ]
+        },
+        "donation": {
+            "title": "สนับสนุนธนาคารอาหารของเรา",
+            "desc": "ทุกการบริจาคช่วยให้ผู้ขาดแคลนได้รับอาหาร ร่วมสร้างความแตกต่างวันนี้!",
+            "bankTitle": "โอนเงินผ่านธนาคาร",
+            "bankName": "AmBank",
+            "bankAcc": "8881002209852",
+            "bankRefLabel": "อ้างอิง",
+            "bankRef": "Foodbank Yayasan DMDI",
+            "contactTitle": "ข้อมูลติดต่อ",
+            "contacts": [
+                { "label": "Office", "value": "(+60) 6-2331212" },
+                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
+                { "label": "Raziah", "value": "(+60) 12-6921760" },
+                { "label": "Nori", "value": "(+60) 17-2337705" }
+            ],
+            "qrScan": "สแกนเพื่อบริจาค",
+            "qrRef": "อ้างอิง",
+            "qrRefValue": "Foodbank DMDI",
+            "qrPowered": "ขับเคลื่อนโดย DuitNow"
+        }
+    },
+    "km": {
+        "hero": {
+            "orgName": "Yayasan Dunia Melayu Dunia Islam",
+            "title": "Food Bank",
+            "description": "សូមរួមគ្នាដើម្បីបន្ថយការលំបាករបស់អ្នកជាទីបន្ទាន់។ ការគាំទ្ររបស់អ្នកផ្តល់អាហារ បន្លឺសង្ឃឹម និងស្ដារសក្តានុពលជីវិតដល់មនុស្សជាច្រើន។",
+            "contribute": "បរិច្ចាគ",
+            "moreAboutUs": "អំពីពួកយើង"
+        },
+        "about": {
+            "title": "អំពីពួកយើង",
+            "established": "មូលនិធិ DMDI ត្រូវបានបង្កើតឡើងនៅថ្ងៃទី ១ ខែកក្កដា ឆ្នាំ ២០២១ ដោយបានចាប់ផ្តើមយុទ្ធនាការ 'ធនាគារអាហារ' នៅជាន់ផ្ទាល់ដី Lot G-24 អគារកូតា ឆឺម៉ែរឡាង អាយ៉េរខេរ៉ូ ខេត្តមាឡាកា។",
+            "contributions": "តាំងពីចាប់ផ្តើម មូលនិធិ DMDI បានទទួលការបរិច្ចាគយ៉ាងសGenerous ពីក្រុមហ៊ុន និងបុគ្គល ជាទ្រព្យសម្បត្តិ និងអាហារបេីកភ្លើង។ ទំនិញទាំងនេះត្រូវបានចែកជូនផ្ទាល់ទៅកាន់អ្នកក្រីក្រ។",
+            "impact": "ដល់ថ្ងៃទី ១៨ មិថុនា ២០២៥ ធនាគារអាហារបានប្រមូលបានជាសរុបចំនួន RM ៥២៩,០២៥.៣០ ដែលបានជួយដល់អ្នកទទួលបាន ៨,៥៩១ នាក់។ បេសកកម្មសំខាន់គឺជួយសហគមន៍ដែលទទួលរងការលំបាក ដូចជាអ្នកក្រ អ្នកជំងឺពិការភាព អ្នកទទួលហ្សាកាត មាតាប្រធានផ្ទះ និងអ្នកមានចំណូលមិនថេរ ដោយបន្ថយបន្ទុកហិរញ្ញវត្ថុ និងធានាថាបានអាហារប្រចាំថ្ងៃ។",
+            "expansion": "ក្រៅពីធនាគារអាហារនៅមាឡាកា មូលនិធិ DMDI ក៏បានពង្រឹងការរីកសាយដោយបង្កើតធនាគារអាហារក្នុងនាយកដ្ឋាននានានៃម៉ាឡេស៊ី និងប្រទេសសមាជិករបស់ DMDI រួមមាន សិង្ហបុរី ថៃ កម្ពុជា ឥណ្ឌូនេស៊ី និងកាណាដា។",
+            "missionTitle": "បេសកកម្ម",
+            "mission": "លើកកម្ពស់វិញ្ញាណនៃការចែកចាយ ឯកភាព និងភាពអាណិតអាសូរជារូបសញ្ញានៃសាមគ្គីភាព និងសolidarity រវាងមនុស្ស។",
+            "visionTitle": "ចក្ខុវិស័យ",
+            "vision": "ថែទាំទាំងអស់ សង់សហគមន៍រួមគ្នា",
+            "objectivesTitle": "គោលបំណង",
+            "objectives": [
+                "គោលបំណងសំខាន់គឺជួយដល់ក្រុមអ្នកខ្វះខាតឲ្យអាចចូលដល់អាហារបាន។",
+                "ធ្វើជវេនសម្រាប់សហគមន៍និងក្រុមហ៊ុនក្នុងការបរិច្ចាគអាហារ។",
+                "បញ្ហាជាចម្បងគឺការបរិច្ចាគមិនទៀងទាត់ពីអ្នកលះបង់។"
+            ]
+        },
+        "services": {
+            "title": "សកម្មភាពរបស់យើង",
+            "desc": "ជួយគ្រួសាររីកចម្រើនតាមរយៈសេវាកម្មធនាគារអាហារ និងសកម្មភាពសប្បុរសធម៌របស់យើង។",
+            "list": [
+                {
+                    "img": "/images/photos/photo_3.png",
+                    "title": "ផ្ទះសប្បុរស Lot G-18",
+                    "desc": "អ្នកទទួលជំនួយពិសេស 500 នាក់ពីធនាគារអាហារ DMDI នៅផ្ទះសប្បុរស Lot G-18 អគារកូតា ឆឺម៉ែរឡាង អាយ៉េរខេរ៉ូ"
+                },
+                {
+                    "img": "/images/photos/1.png",
+                    "title": "កម្មវិធីកាបូបអាហារ Ramadan",
+                    "desc": "ការបរិច្ចាគពី Speedmart 99 នៅអគារកូតា ឆឺម៉ែរឡាង សម្រាប់ពិធីបុណ្យ Hari Raya"
+                },
+                {
+                    "img": "/images/photos/4.png",
+                    "title": "ជំនួយក្រោយទឹកជំនន់",
+                    "desc": "ជំនួយបន្ទាន់ រួមមានអាហារ សម្ភារៈចាំបាច់ និងការគាំទ្រផ្លូវចិត្តសម្រាប់ជួយអ្នករងគ្រោះអាក្រក់ឱ្យមានសក្តានុពលឡើងវិញ"
+                },
+                {
+                    "img": "/images/photos/8.png",
+                    "title": "ធនាគារអាហារ DMDI នេហ្គរី Johor",
+                    "desc": "កម្មវិធីចែកអាហារដោយ DMDI នៃរដ្ឋ Johor ដើម្បីជួយគ្រួសារដែលខ្វះខាត និងធានាថាមានការចូលដល់អាហារដ៏សមរម្យ"
+                }
+            ]
+        },
+        "donation": {
+            "title": "គាំទ្រធនាគារអាហាររបស់យើង",
+            "desc": "ការបរិច្ចាគនីមួយៗជួយផ្គត់ផ្គង់អាហារដល់អ្នកត្រូវការជួយ។ សូមធ្វើអោយមានភាពខុសគ្នាថ្ងៃនេះ!",
+            "bankTitle": "ផ្ទេរប្រាក់តាមធនាគារ",
+            "bankName": "AmBank",
+            "bankAcc": "8881002209852",
+            "bankRefLabel": "យោង",
+            "bankRef": "Foodbank Yayasan DMDI",
+            "contactTitle": "ព័ត៌មានទំនាក់ទំនង",
+            "contacts": [
+                { "label": "Office", "value": "(+60) 6-2331212" },
+                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
+                { "label": "Raziah", "value": "(+60) 12-6921760" },
+                { "label": "Nori", "value": "(+60) 17-2337705" }
+            ],
+            "qrScan": "ស្កេនដើម្បីបរិច្ចាគ",
+            "qrRef": "យោង",
+            "qrRefValue": "Foodbank DMDI",
+            "qrPowered": "ដំណើរការដោយ DuitNow"
+        }
+    }
+}
+

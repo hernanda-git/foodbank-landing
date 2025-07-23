@@ -1,25 +1,34 @@
-const ContributorSection = () => {
-  const logos = [
-    '99_SpeedMart.png',
-    'BernasPadiberasNasionalBerhad.jpeg',
-    'DewanPerniagaanMelayuMalaysia.jpeg',
-    'JabatanSukarelawanMalaysia.jpeg',
-    'KLCMarketingSales.jpeg',
-    'Mamee.jpeg',
-    'MohdChan.jpeg',
-    'MTPN.jpeg',
-    'MyDin.jpeg',
-    'MyKasih.jpeg',
-    'PBRealty.jpeg',
-    'TeobrosGroup.jpeg',
-    'TheBudimasCharitableFoundation.jpeg',
-    'Yayasan_FoodBank_Malaysia.jpeg',
-  ];
+import locales from '../../locales/locales.json';
 
+interface ContributorSectionProps {
+  lang?: string;
+}
+
+const logos = [
+  '99_SpeedMart.png',
+  'BernasPadiberasNasionalBerhad.jpeg',
+  'DewanPerniagaanMelayuMalaysia.jpeg',
+  'JabatanSukarelawanMalaysia.jpeg',
+  'KLCMarketingSales.jpeg',
+  'Mamee.jpeg',
+  'MohdChan.jpeg',
+  'MTPN.jpeg',
+  'MyDin.jpeg',
+  'MyKasih.jpeg',
+  'PBRealty.jpeg',
+  'TeobrosGroup.jpeg',
+  'TheBudimasCharitableFoundation.jpeg',
+  'Yayasan_FoodBank_Malaysia.jpeg',
+];
+
+const ContributorSection: React.FC<ContributorSectionProps> = ({ lang = 'en' }) => {
+  // @ts-expect-error: JSON import is not typed, fallback to 'en' if lang missing
+  const t = (locales[lang]?.contributors) || locales['en'].contributors;
   return (
     <section className="w-full py-10 bg-white flex flex-col items-center">
       <div className="text-sm text-gray-600 font-medium mb-8">
-        Contributor List</div>
+        {t.title}
+      </div>
       <div className="w-full max-w-5xl">
         <div className="flex flex-wrap justify-center gap-6">
           {logos.map((file, index) => (

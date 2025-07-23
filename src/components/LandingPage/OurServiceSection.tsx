@@ -1,28 +1,11 @@
+
 import { useRef } from 'react';
 import { easeOut, motion, useInView } from 'framer-motion';
+import locales from '../../locales/locales.json';
 
-const services = [
-  {
-    img: '/images/photos/photo_3.png',
-    title: 'Rumah Amal Lot G-18',
-    desc: '500 Penerima Bantuan Khas Foodbank DMDI di Rumah Amal Lot G-18, Bangunan Kota Cmerlang, Ayer Keroh.'
-  },
-  {
-    img: '/images/photos/1.png',
-    title: 'Program Sumbangan Bakul Ramadhan',
-    desc: 'Sumbangan dari Speedmart 99 di Bangunan Kota Cemerlang, Ayer Keroh. Untuk sambutan Aidil-fitri.'
-  },
-  {
-    img: '/images/photos/4.png',
-    title: 'Sumbangan Pasca Banjir',
-    desc: 'Bantuan darurat berupa makanan, kebutuhan pokok, dan dukungan moral bagi korban banjir untuk membantu mereka bangkit kembali.'
-  },
-  {
-    img: '/images/photos/8.png',
-    title: 'Food Bank DMDI Negeri Johor',
-    desc: 'Program distribusi makanan oleh DMDI Negeri Johor untuk membantu keluarga kurang mampu dan memastikan akses pangan yang layak bagi masyarakat yang membutuhkan.'
-  }
-];
+type OurServiceSectionProps = {
+  lang?: string;
+};
 
 // Motion variants
 const containerVariants = {
@@ -47,9 +30,19 @@ const cardVariants = {
   }
 };
 
-const OurServiceSection = () => {
+
+interface ServiceItem {
+  img: string;
+  title: string;
+  desc: string;
+}
+
+const OurServiceSection: React.FC<OurServiceSectionProps> = ({ lang = 'en' }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
+  // @ts-expect-error: JSON import is not typed, fallback to 'en' if lang missing
+  const t = (locales[lang]?.services) || locales['en'].services;
+  const serviceList: ServiceItem[] = t.list;
 
   return (
     <section
@@ -65,7 +58,7 @@ const OurServiceSection = () => {
             transition={{ duration: 0.6, ease: 'easeOut' }}
             className="text-2xl sm:text-3xl font-bold text-orange-600 mb-4"
           >
-            Our Activities
+            {t.title}
           </motion.h2>
           <motion.p
             initial={{ x: -50, opacity: 0 }}
@@ -73,7 +66,7 @@ const OurServiceSection = () => {
             transition={{ delay: 0.3, duration: 0.6, ease: 'easeOut' }}
             className="text-base sm:text-lg text-gray-600 font-medium"
           >
-            Helping families thrive through our foodbank and charitable services.
+            {t.desc}
           </motion.p>
         </div>
 
@@ -84,7 +77,7 @@ const OurServiceSection = () => {
           animate={isInView ? 'show' : 'hidden'}
           className="w-full sm:w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-12"
         >
-          {services.map((service, idx) => (
+          {serviceList.map((service, idx) => (
             <motion.div
               key={idx}
               variants={cardVariants}

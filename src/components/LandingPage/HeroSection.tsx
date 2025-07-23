@@ -1,11 +1,19 @@
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import dmdiLogo from '/images/dmdi_logo.png';
+import locales from '../../locales/locales.json';
 
-const HeroSection: React.FC = () => {
+type HeroSectionProps = {
+  lang?: string;
+};
+
+
+const HeroSection: React.FC<HeroSectionProps> = ({ lang = 'en' }) => {
+  // @ts-expect-error: JSON import is not typed, fallback to 'en' if lang missing
+  const t = (locales[lang]?.hero) || locales['en'].hero;
   return (
     <section className="relative min-h-[100vh] flex flex-col items-center justify-center px-6 sm:px-12 text-center overflow-hidden">
-      
       {/* Animated Photo Grid Background */}
       <motion.div
         className="absolute inset-0 w-full h-full z-0 overflow-hidden"
@@ -61,7 +69,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            Yayasan Dunia Melayu Dunia Islam
+            {t.orgName}
           </motion.div>
         </div>
 
@@ -71,7 +79,7 @@ const HeroSection: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          Food Bank
+          {t.title}
         </motion.h1>
 
         <motion.p
@@ -80,8 +88,7 @@ const HeroSection: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.2 }}
         >
-          Stand with us to lift the weight off the shoulders of the underprivileged.
-          Your support delivers nourishment, ignites hope, and restores dignity to countless lives.
+          {t.description}
         </motion.p>
 
         {/* Call to Actions */}
@@ -105,7 +112,7 @@ const HeroSection: React.FC = () => {
             }}
           >
             <i className="fas fa-hand-holding-heart"></i>
-            Contribute
+            {t.contribute}
           </button>
 
           <button
@@ -121,7 +128,7 @@ const HeroSection: React.FC = () => {
             }}
           >
             <i className="fas fa-info-circle"></i>
-            More About Us
+            {t.moreAboutUs}
           </button>
         </motion.div>
       </motion.div>
