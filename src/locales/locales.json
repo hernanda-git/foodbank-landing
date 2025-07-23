@@ -60,10 +60,22 @@
             "bankRef": "Foodbank Yayasan DMDI",
             "contactTitle": "Contact Information",
             "contacts": [
-                { "label": "Office", "value": "(+60) 6-2331212" },
-                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
-                { "label": "Raziah", "value": "(+60) 12-6921760" },
-                { "label": "Nori", "value": "(+60) 17-2337705" }
+                {
+                    "label": "Office",
+                    "value": "(+60) 6-2331212"
+                },
+                {
+                    "label": "Dato' Sabrina",
+                    "value": "(+60) 19-6216111"
+                },
+                {
+                    "label": "Raziah",
+                    "value": "(+60) 12-6921760"
+                },
+                {
+                    "label": "Nori",
+                    "value": "(+60) 17-2337705"
+                }
             ],
             "qrScan": "Scan to Donate",
             "qrRef": "Reference",
@@ -144,15 +156,39 @@
             "bankRef": "Foodbank Yayasan DMDI",
             "contactTitle": "Maklumat Perhubungan",
             "contacts": [
-                { "label": "Office", "value": "(+60) 6-2331212" },
-                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
-                { "label": "Raziah", "value": "(+60) 12-6921760" },
-                { "label": "Nori", "value": "(+60) 17-2337705" }
+                {
+                    "label": "Office",
+                    "value": "(+60) 6-2331212"
+                },
+                {
+                    "label": "Dato' Sabrina",
+                    "value": "(+60) 19-6216111"
+                },
+                {
+                    "label": "Raziah",
+                    "value": "(+60) 12-6921760"
+                },
+                {
+                    "label": "Nori",
+                    "value": "(+60) 17-2337705"
+                }
             ],
             "qrScan": "Imbas untuk Sumbang",
             "qrRef": "Rujukan",
             "qrRefValue": "Foodbank DMDI",
             "qrPowered": "Dikuasakan oleh DuitNow"
+        },
+        "contributors": {
+            "title": "Senarai Penyumbang"
+        },
+        "stats": {
+            "title": "Sorotan Impak",
+            "beneficiaries": "Penerima Bantuan",
+            "beneficiariesValue": 8591,
+            "volunteers": "Sukarelawan",
+            "volunteersValue": 100,
+            "countries": "Negara",
+            "countriesValue": 5
         }
     },
     "id": {
@@ -216,15 +252,39 @@
             "bankRef": "Foodbank Yayasan DMDI",
             "contactTitle": "Informasi Kontak",
             "contacts": [
-                { "label": "Office", "value": "(+60) 6-2331212" },
-                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
-                { "label": "Raziah", "value": "(+60) 12-6921760" },
-                { "label": "Nori", "value": "(+60) 17-2337705" }
+                {
+                    "label": "Office",
+                    "value": "(+60) 6-2331212"
+                },
+                {
+                    "label": "Dato' Sabrina",
+                    "value": "(+60) 19-6216111"
+                },
+                {
+                    "label": "Raziah",
+                    "value": "(+60) 12-6921760"
+                },
+                {
+                    "label": "Nori",
+                    "value": "(+60) 17-2337705"
+                }
             ],
             "qrScan": "Pindai untuk Donasi",
             "qrRef": "Referensi",
             "qrRefValue": "Foodbank DMDI",
             "qrPowered": "Didukung oleh DuitNow"
+        },
+        "contributors": {
+            "title": "Daftar Kontributor"
+        },
+        "stats": {
+            "title": "Sorotan Dampak",
+            "beneficiaries": "Penerima Manfaat",
+            "beneficiariesValue": 8591,
+            "volunteers": "Relawan",
+            "volunteersValue": 100,
+            "countries": "Negara",
+            "countriesValue": 5
         }
     },
     "th": {
@@ -288,15 +348,39 @@
             "bankRef": "Foodbank Yayasan DMDI",
             "contactTitle": "ข้อมูลติดต่อ",
             "contacts": [
-                { "label": "Office", "value": "(+60) 6-2331212" },
-                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
-                { "label": "Raziah", "value": "(+60) 12-6921760" },
-                { "label": "Nori", "value": "(+60) 17-2337705" }
+                {
+                    "label": "Office",
+                    "value": "(+60) 6-2331212"
+                },
+                {
+                    "label": "Dato' Sabrina",
+                    "value": "(+60) 19-6216111"
+                },
+                {
+                    "label": "Raziah",
+                    "value": "(+60) 12-6921760"
+                },
+                {
+                    "label": "Nori",
+                    "value": "(+60) 17-2337705"
+                }
             ],
             "qrScan": "สแกนเพื่อบริจาค",
             "qrRef": "อ้างอิง",
             "qrRefValue": "Foodbank DMDI",
             "qrPowered": "ขับเคลื่อนโดย DuitNow"
+        },
+        "contributors": {
+            "title": "รายชื่อผู้สนับสนุน"
+        },
+        "stats": {
+            "title": "ไฮไลต์ผลกระทบ",
+            "beneficiaries": "ผู้รับประโยชน์",
+            "beneficiariesValue": 8591,
+            "volunteers": "อาสาสมัคร",
+            "volunteersValue": 100,
+            "countries": "ประเทศ",
+            "countriesValue": 5
         }
     },
     "km": {
@@ -360,16 +444,39 @@
             "bankRef": "Foodbank Yayasan DMDI",
             "contactTitle": "ព័ត៌មានទំនាក់ទំនង",
             "contacts": [
-                { "label": "Office", "value": "(+60) 6-2331212" },
-                { "label": "Dato' Sabrina", "value": "(+60) 19-6216111" },
-                { "label": "Raziah", "value": "(+60) 12-6921760" },
-                { "label": "Nori", "value": "(+60) 17-2337705" }
+                {
+                    "label": "Office",
+                    "value": "(+60) 6-2331212"
+                },
+                {
+                    "label": "Dato' Sabrina",
+                    "value": "(+60) 19-6216111"
+                },
+                {
+                    "label": "Raziah",
+                    "value": "(+60) 12-6921760"
+                },
+                {
+                    "label": "Nori",
+                    "value": "(+60) 17-2337705"
+                }
             ],
             "qrScan": "ស្កេនដើម្បីបរិច្ចាគ",
             "qrRef": "យោង",
             "qrRefValue": "Foodbank DMDI",
             "qrPowered": "ដំណើរការដោយ DuitNow"
+        },
+        "contributors": {
+            "title": "បញ្ជីអ្នករួមចំណែក"
+        },
+        "stats": {
+            "title": "សេចក្តីផ្ដោតលើឥទ្ធិពល",
+            "beneficiaries": "អ្នកទទួលផលប្រយោជន៍",
+            "beneficiariesValue": 8591,
+            "volunteers": "ស្ម័គ្រចិត្ត",
+            "volunteersValue": 100,
+            "countries": "ប្រទេស",
+            "countriesValue": 5
         }
     }
 }
-
