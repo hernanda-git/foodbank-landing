@@ -1,7 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
+import imageList from '../../assets/photos.imageList';
 
-// Image array (only .png)
-const images = Array.from({ length: 11 }, (_, i) => `/images/photos/photo_${i + 1}.png`);
+// Use the dynamically generated image list
+const images = imageList;
 
 const ImageCarousel: React.FC = () => {
   const [current, setCurrent] = useState<number>(0);
@@ -90,7 +91,7 @@ const ImageCarousel: React.FC = () => {
   };
 
   return (
-    <section className="min-h-screen min-w-full flex items-center justify-center">
+    <section className="min-h-screen min-w-full flex items-center bg-slate-100 justify-center">
       <div
         ref={carouselRef}
         className="relative min-h-screen min-w-full overflow-hidden"
@@ -102,7 +103,7 @@ const ImageCarousel: React.FC = () => {
         {/* Images */}
         <div className="relative w-full h-screen">
           {/* Black mask overlay */}
-          <div className="absolute inset-0 w-full h-full bg-white/40 pointer-events-none z-10" />
+          <div className="absolute inset-0 w-full h-full pointer-events-none z-10" />
           <img
             key={images[current]}
             src={imageError[current]
@@ -111,7 +112,7 @@ const ImageCarousel: React.FC = () => {
             alt={`Slide ${current + 1}`}
             loading="lazy"
             onError={() => handleImageError(current)}
-            className="absolute inset-0 w-full h-full object-contain z-0"
+            className="absolute inset-0 w-full h-full object-contain z-0 bg-slate-100"
             draggable={false}
           />
         </div>
