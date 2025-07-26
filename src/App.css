@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 body {
   font-family: 'Kanit', Arial, sans-serif;
 }
@@ -23,4 +25,3 @@ body {
   width: 200%; /* Two sets of images */
 }
 
-@import "tailwindcss";
