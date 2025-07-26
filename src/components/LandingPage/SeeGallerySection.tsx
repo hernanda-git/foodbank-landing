@@ -14,7 +14,7 @@ const SeeGallerySection: React.FC<SeeGallerySectionProps> = ({ lang }) => {
 
   return (
     <motion.section
-      className="w-full py-16 px-4 flex flex-col items-center"
+      className="w-screen py-16 px-4 flex flex-col items-center"
       initial={{ opacity: 0.5, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.5 }}

@@ -61,7 +61,7 @@ const InfiniteThumbnailCarousel: React.FC = () => {
 
   return (
     <div
-      className="relative w-full overflow-hidden bg-gray-100 py-4"
+      className="relative w-screen overflow-hidden bg-gray-100 py-4"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >

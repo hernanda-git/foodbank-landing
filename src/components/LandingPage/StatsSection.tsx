@@ -36,7 +36,7 @@ const StatsSection: React.FC<StatsSectionProps> = ({ lang = 'en' }) => {
   // @ts-expect-error: JSON import is not typed, fallback to 'en' if lang missing
   const t = (locales[lang]?.stats) || locales['en'].stats;
   return (
-    <section className="w-full py-16 bg-gray-100 flex flex-col items-center">
+    <section className="w-screen py-16 bg-gray-100 flex flex-col items-center">
       <h2 className="text-3xl font-bold mb-8 text-center">{t.title}</h2>
       <div className="flex flex-wrap gap-12 justify-center">
         <div className="text-center">

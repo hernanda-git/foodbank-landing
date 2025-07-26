@@ -25,7 +25,7 @@ const ContributorSection: React.FC<ContributorSectionProps> = ({ lang = 'en' }) 
   // @ts-expect-error: JSON import is not typed, fallback to 'en' if lang missing
   const t = (locales[lang]?.contributors) || locales['en'].contributors;
   return (
-    <section className="w-full py-10 bg-white flex flex-col items-center">
+    <section className="min-w-screen w-screen py-10 bg-white flex flex-col items-center">
       <div className="text-sm text-gray-600 font-medium mb-8">
         {t.title}
       </div>

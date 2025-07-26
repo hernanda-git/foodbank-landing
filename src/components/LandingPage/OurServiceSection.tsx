@@ -47,7 +47,7 @@ const OurServiceSection: React.FC<OurServiceSectionProps> = ({ lang = 'en' }) =>
   return (
     <section
       ref={ref}
-      className="w-full py-12 sm:py-24 bg-white flex justify-center items-center"
+      className="w-screen px-4 py-12 sm:py-24 bg-white flex justify-center items-center"
     >
       <div className="w-full max-w-6xl flex flex-col sm:flex-row gap-8 px-4 sm:px-0">
         {/* Left Side Text */}

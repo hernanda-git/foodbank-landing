@@ -13,7 +13,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ lang = 'en' }) => {
   // @ts-expect-error: JSON import is not typed, fallback to 'en' if lang missing
   const t = (locales[lang]?.hero) || locales['en'].hero;
   return (
-    <section className="relative min-h-[100vh] flex flex-col items-center justify-center px-6 sm:px-12 text-center overflow-hidden select-none" onCopy={e => e.preventDefault()} onPaste={e => e.preventDefault()} onCut={e => e.preventDefault()}>
+    <section className="relative w-screen min-h-[100vh] flex flex-col items-center justify-center px-6 sm:px-12 text-center overflow-hidden select-none" onCopy={e => e.preventDefault()} onPaste={e => e.preventDefault()} onCut={e => e.preventDefault()}>
       {/* Animated Photo Grid Background */}
       <motion.div
         className="absolute inset-0 w-full h-full z-0 overflow-hidden"

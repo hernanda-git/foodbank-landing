@@ -43,7 +43,7 @@ const AboutUsSection: React.FC<AboutUsSectionProps> = ({ lang = 'en' }) => {
     <section
       ref={ref}
       id="about-us"
-      className="min-h-screen bg-slate-100 flex items-center justify-center py-16 px-4"
+      className="w-screen min-h-screen min-w-screen bg-slate-100 flex items-center justify-center py-16 px-4"
     >
       <div className="w-full max-w-7xl flex lg:flex-row flex-col gap-8 items-stretch">
         {/* Left Card */}

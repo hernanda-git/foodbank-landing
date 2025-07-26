@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const FooterSection: React.FC = () => {
   return (
-    <footer className="w-full bg-orange-700 text-white px-6 py-10 md:px-12">
+    <footer className="w-screen bg-orange-700 text-white px-6 py-10 md:px-12">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
