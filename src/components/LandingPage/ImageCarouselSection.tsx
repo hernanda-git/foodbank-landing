@@ -112,7 +112,7 @@ const ImageCarousel: React.FC = () => {
             alt={`Slide ${current + 1}`}
             loading="lazy"
             onError={() => handleImageError(current)}
-            className="absolute inset-0 w-full h-full object-contain z-0 bg-slate-100"
+            className="absolute inset-0 w-full h-full object-cover object-top z-0 bg-slate-100"
             draggable={false}
           />
         </div>
