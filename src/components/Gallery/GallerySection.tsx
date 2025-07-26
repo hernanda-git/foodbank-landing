@@ -99,8 +99,7 @@ const galleryGroups = [
   }
 ];
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const GallerySection = ({ lang = 'en' }) => {
+const GallerySection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
   useEffect(() => {
