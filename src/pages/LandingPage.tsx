@@ -13,6 +13,7 @@ import DonationSection from '../components/LandingPage/DonationSection';
 
 
 import { useState } from 'react';
+import SeeGallerySection from '../components/LandingPage/SeeGallerySection';
 
 const LandingPage: React.FC = () => {
   const [lang, setLang] = useState('en');
@@ -26,6 +27,7 @@ const LandingPage: React.FC = () => {
       <ImageHorizontalParallaxSection />
       <AboutUsSection lang={lang} />
       <OurServiceSection lang={lang} />
+      <SeeGallerySection lang={lang} />
       <DonationSection lang={lang} />
       <ContributorSection lang={lang} />
       <StatsSection lang={lang} />

@@ -86,14 +86,19 @@
             "title": "Contributor List"
         },
         "stats": {
-            "title": "Impact Highlights",
-            "beneficiaries": "Beneficiaries",
-            "beneficiariesValue": 8591,
-            "volunteers": "Volunteers",
-            "volunteersValue": 100,
-            "countries": "Countries",
-            "countriesValue": 5
-        }
+        "title": "Impact Highlights",
+        "beneficiaries": "Beneficiaries",
+        "beneficiariesValue": 8591,
+        "volunteers": "Volunteers",
+        "volunteersValue": 100,
+        "countries": "Countries",
+        "countriesValue": 5
+    },
+    "seeGallery": {
+        "heading": "See more activities of us",
+        "subheading": "Explore our gallery to discover more moments, stories, and the impact we create together.",
+        "button": "View Gallery"
+    }
     },
     "ms": {
         "hero": {
@@ -182,14 +187,19 @@
             "title": "Senarai Penyumbang"
         },
         "stats": {
-            "title": "Sorotan Impak",
-            "beneficiaries": "Penerima Bantuan",
-            "beneficiariesValue": 8591,
-            "volunteers": "Sukarelawan",
-            "volunteersValue": 100,
-            "countries": "Negara",
-            "countriesValue": 5
-        }
+        "title": "Sorotan Impak",
+        "beneficiaries": "Penerima Bantuan",
+        "beneficiariesValue": 8591,
+        "volunteers": "Sukarelawan",
+        "volunteersValue": 100,
+        "countries": "Negara",
+        "countriesValue": 5
+    },
+    "seeGallery": {
+        "heading": "Lihat lebih banyak aktiviti kami",
+        "subheading": "Terokai galeri kami untuk melihat lebih banyak detik, kisah, dan impak yang kita cipta bersama.",
+        "button": "Lihat Galeri"
+    }
     },
     "id": {
         "hero": {
@@ -278,14 +288,19 @@
             "title": "Daftar Kontributor"
         },
         "stats": {
-            "title": "Sorotan Dampak",
-            "beneficiaries": "Penerima Manfaat",
-            "beneficiariesValue": 8591,
-            "volunteers": "Relawan",
-            "volunteersValue": 100,
-            "countries": "Negara",
-            "countriesValue": 5
-        }
+        "title": "Sorotan Dampak",
+        "beneficiaries": "Penerima Manfaat",
+        "beneficiariesValue": 8591,
+        "volunteers": "Relawan",
+        "volunteersValue": 100,
+        "countries": "Negara",
+        "countriesValue": 5
+    },
+    "seeGallery": {
+        "heading": "Lihat lebih banyak aktivitas kami",
+        "subheading": "Jelajahi galeri kami untuk menemukan lebih banyak momen, cerita, dan dampak yang kita ciptakan bersama.",
+        "button": "Lihat Galeri"
+    }
     },
     "th": {
         "hero": {
@@ -374,14 +389,19 @@
             "title": "รายชื่อผู้สนับสนุน"
         },
         "stats": {
-            "title": "ไฮไลต์ผลกระทบ",
-            "beneficiaries": "ผู้รับประโยชน์",
-            "beneficiariesValue": 8591,
-            "volunteers": "อาสาสมัคร",
-            "volunteersValue": 100,
-            "countries": "ประเทศ",
-            "countriesValue": 5
-        }
+        "title": "ไฮไลต์ผลกระทบ",
+        "beneficiaries": "ผู้รับประโยชน์",
+        "beneficiariesValue": 8591,
+        "volunteers": "อาสาสมัคร",
+        "volunteersValue": 100,
+        "countries": "ประเทศ",
+        "countriesValue": 5
+    },
+    "seeGallery": {
+        "heading": "ดูเพิ่มเติมกิจกรรมของเรา",
+        "subheading": "สำรวจแกลเลอรีของเราเพื่อค้นพบช่วงเวลา เรื่องราว และผลกระทบที่เราสร้างร่วมกัน",
+        "button": "ดูแกลเลอรี"
+    }
     },
     "km": {
         "hero": {
@@ -470,13 +490,18 @@
             "title": "បញ្ជីអ្នករួមចំណែក"
         },
         "stats": {
-            "title": "សេចក្តីផ្ដោតលើឥទ្ធិពល",
-            "beneficiaries": "អ្នកទទួលផលប្រយោជន៍",
-            "beneficiariesValue": 8591,
-            "volunteers": "ស្ម័គ្រចិត្ត",
-            "volunteersValue": 100,
-            "countries": "ប្រទេស",
-            "countriesValue": 5
-        }
+        "title": "សេចក្តីផ្ដោតលើឥទ្ធិពល",
+        "beneficiaries": "អ្នកទទួលផលប្រយោជន៍",
+        "beneficiariesValue": 8591,
+        "volunteers": "ស្ម័គ្រចិត្ត",
+        "volunteersValue": 100,
+        "countries": "ប្រទេស",
+        "countriesValue": 5
+    },
+    "seeGallery": {
+        "heading": "មើលសកម្មភាពបន្ថែមរបស់យើង",
+        "subheading": "សូមស្វែងរកវិចិត្រសាលរបស់យើងដើម្បីស្គាល់ពេលវេលា រឿងរ៉ាវ និងឥទ្ធិពលដែលយើងបង្កើតរួមគ្នា។",
+        "button": "មើលវិចិត្រសាល"
+    }
     }
 }
