@@ -157,7 +157,7 @@ const GallerySection = () => {
               <div className="bg-white shadow-2xl rounded-xl p-8 transition-all duration-300 hover:shadow-xl">
                 <h2 className="text-3xl font-semibold mb-4 text-gray-700 pointer-events-none">{group.title}</h2>
                 <p className="text-orange-400 mb-8 pointer-events-none">{group.description}</p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3 sm:gap-4 md:gap-5">
                   {group.images.map((filename, i) => (
                     <div key={filename} className="relative aspect-square overflow-hidden rounded-lg group bg-gray-200">
                       <img
