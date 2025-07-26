@@ -140,7 +140,7 @@ const ImageCarousel: React.FC = () => {
         </button>
 
         {/* Navigation Dots */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3">
+        {/* <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3">
           {images.map((_, i) => (
             <button
               key={i}
@@ -152,7 +152,7 @@ const ImageCarousel: React.FC = () => {
               aria-current={i === current ? 'true' : 'false'}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
