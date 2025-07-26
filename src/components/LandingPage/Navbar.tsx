@@ -69,7 +69,19 @@ export default function Navbar({ onLanguageChange }: NavbarProps) {
         </Link>
       </div>
       <div className="navbar-right">
-        <div className="dropdown" ref={dropdownRef}>
+        <Link
+          to="/"
+          className="navbar-link text-slate-300 hover:text-orange-500 transition-colors duration-200 ml-6"
+        >
+          Home
+        </Link>
+        <Link
+          to="/gallery"
+          className="navbar-link text-slate-300 hover:text-orange-500 transition-colors duration-200 ml-6"
+        >
+          Gallery
+        </Link>
+        <div style={{ marginLeft: '1.5rem' }} className="dropdown" ref={dropdownRef}>
           <button
             className="dropdown-toggle"
             onClick={() => setDropdownOpen(!dropdownOpen)}

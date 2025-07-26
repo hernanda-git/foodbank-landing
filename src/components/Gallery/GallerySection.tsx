@@ -1,4 +1,46 @@
-import { useEffect } from 'react';
+import { easeInOut, motion, useInView } from 'framer-motion';
+import { useEffect, useRef } from 'react';
+
+// Animation variants for the heading
+const headingVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.8, ease: easeInOut },
+  },
+};
+
+// Animation variants for the paragraph
+const paragraphVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.8, ease: easeInOut, delay: 0.2 },
+  },
+};
+
+// Animation variants for the divider
+const dividerVariants = {
+  hidden: { opacity: 0, scaleX: 0 },
+  visible: {
+    opacity: 1,
+    scaleX: 1,
+    transition: { duration: 0.6, ease: easeInOut, delay: 0.4 },
+  },
+};
+
+// Animation variants for the back button
+const buttonVariants = {
+  hidden: { opacity: 0, x: -20 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.5, ease: easeInOut, delay: 0.6 },
+  },
+ 
+};
 
 const galleryGroups = [
   {
@@ -59,6 +101,8 @@ const galleryGroups = [
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const GallerySection = ({ lang = 'en' }) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.3 });
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
@@ -66,15 +110,38 @@ const GallerySection = ({ lang = 'en' }) => {
   return (
     <section className="min-h-screen bg-gray-50 text-gray-900 font-sans">
       <div className="container mx-auto px-4 py-20">
-        <div className="text-center my-16">
-          <h1 className="text-5xl sm:text-6xl text-orange-500 font-extrabold mb-6 font-montserrat drop-shadow-lg">Our Gallery Showcase</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <motion.div
+          ref={ref}
+          className="text-center my-16 pointer-events-none"
+          initial="hidden"
+          animate={isInView ? 'visible' : 'hidden'}
+        >
+          <motion.h1
+            className="text-5xl sm:text-6xl text-orange-500 font-extrabold mb-6 font-montserrat drop-shadow-lg"
+            variants={headingVariants}
+          >
+            Our Gallery Showcase
+          </motion.h1>
+          <motion.p
+            className="text-lg text-gray-600 max-w-2xl mx-auto"
+            variants={paragraphVariants}
+          >
             A curated collection of moments capturing the essence of compassion, community, and connection across various Ziarah Kasih initiatives.
-          </p>
-          <div className="h-1 w-32 bg-gradient-to-r from-amber-400 to-rose-500 rounded-full mx-auto mt-6"></div>
-        </div>
+          </motion.p>
+          <motion.div
+            className="h-1 w-32 bg-gradient-to-r from-amber-400 to-rose-500 rounded-full mx-auto mt-6"
+            variants={dividerVariants}
+          ></motion.div>
+        </motion.div>
 
-        <div className="flex items-center mb-8">
+        <motion.div
+          className="flex items-center mb-8"
+          initial="hidden"
+          animate={isInView ? 'visible' : 'hidden'}
+          variants={buttonVariants}
+          whileHover="hover"
+          whileTap="tap"
+        >
           <a
             href="/"
             className="inline-flex items-center text-sm font-medium text-gray-600 hover:text-orange-500 transition-all duration-300 ease-in-out bg-white border border-gray-200 rounded-lg px-4 py-2 shadow-sm hover:shadow-md hover:border-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-300"
@@ -83,14 +150,14 @@ const GallerySection = ({ lang = 'en' }) => {
             <i className="fas fa-arrow-left mr-2"></i>
             Back
           </a>
-        </div>
+        </motion.div>
 
         <div className="space-y-24">
           {galleryGroups.map((group) => (
             <div key={group.name} className="relative">
               <div className="bg-white shadow-2xl rounded-xl p-8 transition-all duration-300 hover:shadow-xl">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-800">{group.title}</h2>
-                <p className="text-gray-600 mb-8">{group.description}</p>
+                <h2 className="text-3xl font-semibold mb-4 text-gray-700 pointer-events-none">{group.title}</h2>
+                <p className="text-orange-400 mb-8 pointer-events-none">{group.description}</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                   {group.images.map((filename, i) => (
                     <div key={filename} className="relative aspect-square overflow-hidden rounded-lg group bg-gray-200">

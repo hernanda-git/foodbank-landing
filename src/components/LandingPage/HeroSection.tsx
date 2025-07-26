@@ -13,7 +13,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ lang = 'en' }) => {
   // @ts-expect-error: JSON import is not typed, fallback to 'en' if lang missing
   const t = (locales[lang]?.hero) || locales['en'].hero;
   return (
-    <section className="relative min-h-[100vh] flex flex-col items-center justify-center px-6 sm:px-12 text-center overflow-hidden">
+    <section className="relative min-h-[100vh] flex flex-col items-center justify-center px-6 sm:px-12 text-center overflow-hidden select-none" onCopy={e => e.preventDefault()} onPaste={e => e.preventDefault()} onCut={e => e.preventDefault()}>
       {/* Animated Photo Grid Background */}
       <motion.div
         className="absolute inset-0 w-full h-full z-0 overflow-hidden"
@@ -48,7 +48,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ lang = 'en' }) => {
 
       {/* Animated Content */}
       <motion.div
-        className="relative z-20 max-w-xl mx-auto"
+        className="relative z-20 max-w-xl mx-auto select-none"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.3, ease: 'easeOut' }}
@@ -74,7 +74,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ lang = 'en' }) => {
         </div>
 
         <motion.h1
-          className="text-5xl sm:text-6xl text-orange-500 font-extrabold mb-6 font-montserrat drop-shadow-lg"
+          className="text-5xl sm:text-6xl text-orange-500 font-extrabold mb-6 font-montserrat drop-shadow-lg select-none pointer-events-none"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
@@ -83,7 +83,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ lang = 'en' }) => {
         </motion.h1>
 
         <motion.p
-          className="mb-10 text-lg sm:text-xl leading-relaxed text-slate-800 font-medium drop-shadow"
+          className="mb-10 text-lg sm:text-xl leading-relaxed text-slate-800 font-medium drop-shadow select-none pointer-events-none"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.2 }}

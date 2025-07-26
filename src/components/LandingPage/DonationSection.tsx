@@ -13,7 +13,7 @@ const DonationSection: React.FC<DonationSectionProps> = ({ lang = 'en' }) => {
   // @ts-expect-error: JSON import is not typed, fallback to 'en' if lang missing
   const t = (locales[lang]?.donation) || locales['en'].donation;
   return (
-    <section id="donation" className="relative w-full py-20 px-6 sm:px-12 bg-gradient-to-br from-white via-orange-50 to-white overflow-hidden">
+    <section id="donation" className="relative w-full py-20 px-6 sm:px-12 overflow-hidden">
       {/* Background blur effect */}
       <div className="absolute inset-0 z-0 bg-white/30 backdrop-blur-sm" />
 
