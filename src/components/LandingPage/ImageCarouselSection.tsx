@@ -25,16 +25,25 @@ const InfiniteThumbnailCarousel: React.FC = () => {
     };
     updateCardWidth();
     window.addEventListener('resize', updateCardWidth);
-    return () => window.removeEventListener('resize', updateCardWidth);
+    return () => {
+      window.removeEventListener('resize', updateCardWidth);
+    };
   }, []);
 
   // Autoplay
   useEffect(() => {
-    if (paused) return;
-    autoPlayRef.current = setInterval(() => {
+    if (paused) {
+      return;
+    }
+    autoPlayRef.current = window.setInterval(() => {
       setCurrentIndex((prev) => prev + 1);
     }, 3000);
-    return () => autoPlayRef.current && clearInterval(autoPlayRef.current);
+    return () => {
+      if (autoPlayRef.current) {
+        clearInterval(autoPlayRef.current);
+        autoPlayRef.current = null;
+      }
+    };
   }, [paused]);
 
   // Loop reset
